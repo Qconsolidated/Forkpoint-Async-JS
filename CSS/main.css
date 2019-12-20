@@ -1,0 +1,15 @@
+#last_added
+{
+    text-align:center;
+}
+
+div .button
+{
+    display: inline;
+}
+div .list
+{
+    float:left; 
+    display: block;
+    width:50%;
+}

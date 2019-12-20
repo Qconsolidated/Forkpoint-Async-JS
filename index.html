@@ -4,18 +4,19 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<link rel="stylesheet" type="text/css" href="CSS/main.css"
 	<script type="text/javascript" src="JS/jquery-3.4.1.js"></script>
 	<title>Chuck Norris</title>
 </head>
 <body>
 	<div id="content">
-		<div id="last_added" align=center>
+		<div id="last_added">
 			Latest quote:
-			<p id='para'></p>
+			<p id="para"></p>
 		</div>
 		<div>
-			<div style="float:left; display: block; width:50%"><ol id="quotes"></ol></div>
-			<div style="display: inline;"><button id="add_quote" onclick="getQuote()">Add quote</button></div>
+			<div class="list"><ol id="quotes"></ol></div>
+			<div class="button"><button id="add_quote">Add quote</button></div>
 		</div>
 	</div>
 <script type="text/javascript" src="JS/quotes.js"></script>
